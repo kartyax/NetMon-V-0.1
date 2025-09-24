@@ -12,20 +12,14 @@ Dibuat untuk mempelajari dasar-dasar monitoring dan visualisasi trafik jaringan 
 ---
 
 ## Cara Instalasi
-Salin perintah ini ke terminal:
-
 ```bash
 # Clone repo
 git clone https://github.com/username/NetMon-V-0.1.git
 cd NetMon-V-0.1
 
-# Buat virtual environment
+# Buat venv (opsional)
 python3 -m venv .venv
-source .venv/bin/activate   # Linux/macOS
-# .venv\Scripts\activate    # Windows PowerShell
+source .venv/bin/activate
 
 # Install dependencies
 pip install -r requirements.txt
-
-# Buat folder logs jika belum ada
-mkdir -p logs
