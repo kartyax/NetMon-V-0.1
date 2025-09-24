@@ -12,8 +12,3 @@ Ini mini project saya untuk Monitoring jaringan sederhana berbasis Python (CLI).
 ```bash
 git clone https://github.com/username/NetMon-V-0.1.git
 cd NetMon-V-0.1
-
-```bash
-wget https://github.com/username/NetMon-V-0.1/archive/refs/heads/main.zip -O netmon.zip
-unzip netmon.zip
-cd NetMon-V-0.1-main
