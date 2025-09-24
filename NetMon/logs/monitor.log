@@ -1,0 +1,34 @@
+[2025-09-24 10:17:25.790179] PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=115 time=22.4 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=115 time=22.7 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=115 time=22.7 ms
+64 bytes from 8.8.8.8: icmp_seq=4 ttl=115 time=22.9 ms
+
+--- 8.8.8.8 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3006ms
+rtt min/avg/max/mdev = 22.445/22.692/22.922/0.168 ms
+
+[2025-09-24 10:17:38.391186] traceroute to 8.8.8.8 (8.8.8.8), 30 hops max, 60 byte packets
+ 1  _gateway (192.168.1.1)  1.465 ms  1.792 ms  2.715 ms
+ 2  10.250.63.254 (10.250.63.254)  5.098 ms  4.651 ms  3.772 ms
+ 3  10.24.86.55 (10.24.86.55)  6.312 ms 114.1.23.120 (114.1.23.120)  7.181 ms 10.24.86.55 (10.24.86.55)  6.660 ms
+ 4  114.1.23.123 (114.1.23.123)  5.202 ms 114.1.23.121 (114.1.23.121)  10.550 ms  10.931 ms
+ 5  114-4-16-180.resources.indosat.com (114.4.16.180)  8.793 ms  7.359 ms 114-4-65-158.resources.indosat.com (114.4.65.158)  7.763 ms
+ 6  114-4-16-181.resources.indosat.com (114.4.16.181)  8.197 ms 114-4-16-183.resources.indosat.com (114.4.16.183)  6.182 ms  6.506 ms
+ 7  114-0-116-19.resources.indosat.com (114.0.116.19)  22.341 ms  31.162 ms  28.184 ms
+ 8  114-0-116-19.resources.indosat.com (114.0.116.19)  21.726 ms  22.556 ms  23.150 ms
+ 9  * * *
+10  * * dns.google (8.8.8.8)  22.274 ms
+
+[2025-09-24 10:18:02.735778] {22: 'CLOSED', 80: 'CLOSED', 443: 'CLOSED'}
+[2025-09-24 10:18:26.984301] PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=115 time=25.2 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=115 time=28.1 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=115 time=24.1 ms
+64 bytes from 8.8.8.8: icmp_seq=4 ttl=115 time=34.0 ms
+64 bytes from 8.8.8.8: icmp_seq=5 ttl=115 time=24.3 ms
+
+--- 8.8.8.8 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4005ms
+rtt min/avg/max/mdev = 24.053/27.158/34.032/3.728 ms
+
